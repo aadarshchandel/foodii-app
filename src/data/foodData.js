@@ -1,4 +1,5 @@
 // src/data/foodData.js
+
 export const initialFoods = [
   // North Indian Delights (10 items)
   { 
@@ -6,7 +7,7 @@ export const initialFoods = [
     name: "Butter Chicken", 
     price: 350, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Butter-Chicken-.jpg", 
+    img: "/images/butter-chicken.jpg", 
     category: "North Indian",
     description: "Creamy tomato-based curry with tender chicken pieces"
   },
@@ -15,7 +16,7 @@ export const initialFoods = [
     name: "Paneer Butter Masala", 
     price: 280, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Paneer-Butter-Masala-1.jpg", 
+    img: "/images/paneer-butter-masala.jpg", 
     category: "North Indian",
     description: "Soft paneer cubes in rich buttery gravy"
   },
@@ -24,25 +25,17 @@ export const initialFoods = [
     name: "Dal Makhani", 
     price: 220, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Dal-Makhani.jpg", 
+    img: "/images/dal-makhani.jpg", 
     category: "North Indian",
     description: "Slow cooked black lentils with cream and butter"
   },
-  { 
-    id: 4, 
-    name: "Chicken Tikka Masala", 
-    price: 320, 
-    rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Tikka-Masala.jpg", 
-    category: "North Indian",
-    description: "Grilled chicken in spiced tomato-cream sauce"
-  },
+  
   { 
     id: 5, 
     name: "Palak Paneer", 
     price: 260, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Palak-Paneer-1.jpg", 
+    img: "/images/palak-paneer.jpg", 
     category: "North Indian",
     description: "Paneer in creamy spinach gravy"
   },
@@ -51,7 +44,7 @@ export const initialFoods = [
     name: "Shahi Paneer", 
     price: 290, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Shahi-Paneer.jpg", 
+    img: "/images/shahi-paneer.jpg", 
     category: "North Indian",
     description: "Royal paneer curry with nuts and cream"
   },
@@ -60,7 +53,7 @@ export const initialFoods = [
     name: "Chole Bhature", 
     price: 150, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Chole-Bhature.jpg", 
+    img: "/images/chole-bhature.jpg", 
     category: "Street Food",
     description: "Spicy chickpeas with fluffy fried bread"
   },
@@ -69,7 +62,7 @@ export const initialFoods = [
     name: "Rajma Chawal", 
     price: 160, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Rajma-Chawal.jpg", 
+    img: "/images/rajma-chawal.jpg", 
     category: "North Indian",
     description: "Red kidney beans curry with steamed rice"
   },
@@ -78,7 +71,7 @@ export const initialFoods = [
     name: "Garlic Naan", 
     price: 50, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Garlic-Naan.jpg", 
+    img: "/images/garlic-naan.jpg", 
     category: "Breads",
     description: "Soft leavened bread with garlic butter"
   },
@@ -87,7 +80,7 @@ export const initialFoods = [
     name: "Butter Naan", 
     price: 45, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Butter-Naan.jpg", 
+    img: "/images/butter-naan.jpg", 
     category: "Breads",
     description: "Classic naan topped with melted butter"
   },
@@ -98,7 +91,7 @@ export const initialFoods = [
     name: "Masala Dosa", 
     price: 120, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Masala-Dosa.jpg", 
+    img: "/images/masala-dosa.jpg", 
     category: "South Indian",
     description: "Crispy rice crepe with spiced potato filling"
   },
@@ -107,7 +100,7 @@ export const initialFoods = [
     name: "Idli Sambhar", 
     price: 60, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Idli-Sambar.jpg", 
+    img: "/images/idli-sambhar.jpg", 
     category: "South Indian",
     description: "Steamed rice cakes with lentil soup"
   },
@@ -116,7 +109,7 @@ export const initialFoods = [
     name: "Medu Vada", 
     price: 55, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Medu-Vada.jpg", 
+    img: "/images/medu-vada.jpg", 
     category: "South Indian",
     description: "Crispy lentil donuts with coconut chutney"
   },
@@ -125,7 +118,7 @@ export const initialFoods = [
     name: "Uttapam", 
     price: 90, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Uttapam.jpg", 
+    img: "/images/uttapam.jpg", 
     category: "South Indian",
     description: "Thick rice pancake with onion & tomato toppings"
   },
@@ -134,7 +127,7 @@ export const initialFoods = [
     name: "Rava Dosa", 
     price: 100, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Rava-Dosa.jpg", 
+    img: "/images/rava-dosa.jpg", 
     category: "South Indian",
     description: "Crispy semolina crepe"
   },
@@ -143,7 +136,7 @@ export const initialFoods = [
     name: "Lemon Rice", 
     price: 90, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Lemon-Rice.jpg", 
+    img: "/images/lemon-rice.jpg", 
     category: "South Indian",
     description: "Tangy rice flavored with lemon and peanuts"
   },
@@ -152,7 +145,7 @@ export const initialFoods = [
     name: "Bisibele Bath", 
     price: 120, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Bisibele-Bath.jpg", 
+    img: "/images/bisibele-bath.jpg", 
     category: "South Indian",
     description: "Spicy rice-lentil dish with vegetables"
   },
@@ -161,7 +154,7 @@ export const initialFoods = [
     name: "Pongal", 
     price: 85, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Pongal.jpg", 
+    img: "/images/pongal.jpg", 
     category: "South Indian",
     description: "Comforting rice and lentil porridge"
   },
@@ -172,7 +165,7 @@ export const initialFoods = [
     name: "Hyderabadi Chicken Biryani", 
     price: 280, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-Chicken-Biryani.jpg", 
+    img: "/images/hyderabadi-chicken-biryani.jpg", 
     category: "Biryani",
     description: "Aromatic basmati rice with tender chicken"
   },
@@ -181,7 +174,7 @@ export const initialFoods = [
     name: "Mutton Biryani", 
     price: 350, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Biryani.jpg", 
+    img: "/images/mutton-biryani.jpg", 
     category: "Biryani",
     description: "Slow-cooked mutton with fragrant spices"
   },
@@ -190,7 +183,7 @@ export const initialFoods = [
     name: "Vegetable Biryani", 
     price: 180, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Vegetable-Biryani.jpg", 
+    img: "/images/vegetable-biryani.jpg", 
     category: "Biryani",
     description: "Colorful veggie rice with aromatic spices"
   },
@@ -199,7 +192,7 @@ export const initialFoods = [
     name: "Egg Biryani", 
     price: 200, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Egg-Biryani.jpg", 
+    img: "/images/egg-biryani.jpg", 
     category: "Biryani",
     description: "Spicy rice layered with boiled eggs"
   },
@@ -208,7 +201,7 @@ export const initialFoods = [
     name: "Veg Fried Rice", 
     price: 140, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Veg-Fried-Rice.jpg", 
+    img: "/images/veg-fried-rice.jpg", 
     category: "Chinese",
     description: "Indo-Chinese style fried rice with vegetables"
   },
@@ -217,7 +210,7 @@ export const initialFoods = [
     name: "Jeera Rice", 
     price: 120, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Jeera-Rice.jpg", 
+    img: "/images/jeera-rice.jpg", 
     category: "Rice",
     description: "Fragrant cumin flavored rice"
   },
@@ -228,7 +221,7 @@ export const initialFoods = [
     name: "Tandoori Chicken", 
     price: 280, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg", 
+    img: "/images/tandoori-chicken.jpg", 
     category: "Tandoori",
     description: "Yogurt-marinated chicken grilled in clay oven"
   },
@@ -237,7 +230,7 @@ export const initialFoods = [
     name: "Paneer Tikka", 
     price: 220, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Paneer-Tikka.jpg", 
+    img: "/images/paneer-tikka.jpg", 
     category: "Tandoori",
     description: "Marinated cottage cheese cubes grilled to perfection"
   },
@@ -246,7 +239,7 @@ export const initialFoods = [
     name: "Seekh Kebab", 
     price: 250, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Seekh-Kebab.jpg", 
+    img: "/images/seekh-kebab.jpg", 
     category: "Tandoori",
     description: "Minced meat skewers with Indian spices"
   },
@@ -255,7 +248,7 @@ export const initialFoods = [
     name: "Chicken Tikka", 
     price: 260, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Tikka.jpg", 
+    img: "/images/chicken-tikka.jpg", 
     category: "Tandoori",
     description: "Boneless chicken pieces marinated in spices"
   },
@@ -264,7 +257,7 @@ export const initialFoods = [
     name: "Malai Tikka", 
     price: 240, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Malai-Tikka.jpg", 
+    img: "/images/malai-tikka.jpg", 
     category: "Tandoori",
     description: "Creamy cheese & cream marinated chicken"
   },
@@ -273,7 +266,7 @@ export const initialFoods = [
     name: "Fish Tikka", 
     price: 320, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.licious.in/blog/wp-content/uploads/2020/12/Fish-Tikka.jpg", 
+    img: "/images/fish-tikka.jpg", 
     category: "Tandoori",
     description: "Spiced boneless fish grilled in tandoor"
   },
@@ -284,7 +277,7 @@ export const initialFoods = [
     name: "Pani Puri", 
     price: 50, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Pani-Puri.jpg", 
+    img: "/images/pani-puri.jpg", 
     category: "Street Food",
     description: "Crispy hollow puris filled with spicy water"
   },
@@ -293,7 +286,7 @@ export const initialFoods = [
     name: "Pav Bhaji", 
     price: 130, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Pav-Bhaji.jpg", 
+    img: "/images/pav-bhaji.jpg", 
     category: "Street Food",
     description: "Mixed vegetable mash served with buttered bread"
   },
@@ -302,7 +295,7 @@ export const initialFoods = [
     name: "Samosa", 
     price: 20, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Samosa.jpg", 
+    img: "/images/samosa.jpg", 
     category: "Street Food",
     description: "Crispy pastry filled with spiced potatoes"
   },
@@ -311,7 +304,7 @@ export const initialFoods = [
     name: "Vada Pav", 
     price: 40, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Vada-Pav.jpg", 
+    img: "/images/vada-pav.jpg", 
     category: "Street Food",
     description: "Mumbai-style potato fritter burger"
   },
@@ -320,7 +313,7 @@ export const initialFoods = [
     name: "Dahi Puri", 
     price: 50, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Dahi-Puri.jpg", 
+    img: "/images/dahi-puri.jpg", 
     category: "Street Food",
     description: "Puri topped with yogurt and chutneys"
   },
@@ -329,7 +322,7 @@ export const initialFoods = [
     name: "Aloo Tikki", 
     price: 30, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Aloo-Tikki.jpg", 
+    img: "/images/aloo-tikki.jpg", 
     category: "Street Food",
     description: "Crispy potato patty with spices"
   },
@@ -338,7 +331,7 @@ export const initialFoods = [
     name: "Bhel Puri", 
     price: 40, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Bhel-Puri.jpg", 
+    img: "/images/bhel-puri.jpg", 
     category: "Street Food",
     description: "Puffed rice snack with tangy tamarind sauce"
   },
@@ -347,7 +340,7 @@ export const initialFoods = [
     name: "Kachori", 
     price: 25, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Kachori.jpg", 
+    img: "/images/kachori.jpg", 
     category: "Street Food",
     description: "Flaky pastry filled with spiced lentils"
   },
@@ -358,7 +351,7 @@ export const initialFoods = [
     name: "Gulab Jamun", 
     price: 80, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Gulab-Jamun.jpg", 
+    img: "/images/gulab-jamun.jpg", 
     category: "Desserts",
     description: "Soft milk dumplings in sugar syrup"
   },
@@ -367,7 +360,7 @@ export const initialFoods = [
     name: "Jalebi", 
     price: 100, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Jalebi.jpg", 
+    img: "/images/jalebi.jpg", 
     category: "Desserts",
     description: "Crispy spiral-shaped sweet in sugar syrup"
   },
@@ -376,7 +369,7 @@ export const initialFoods = [
     name: "Rasmalai", 
     price: 120, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Rasmalai.jpg", 
+    img: "/images/rasmalai.jpg", 
     category: "Desserts",
     description: "Soft paneer balls in creamy milk"
   },
@@ -385,7 +378,7 @@ export const initialFoods = [
     name: "Gajar Ka Halwa", 
     price: 110, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Gajar-ka-Halwa.jpg", 
+    img: "/images/gajar-ka-halwa.jpg", 
     category: "Desserts",
     description: "Slow-cooked carrot pudding with nuts"
   },
@@ -394,7 +387,7 @@ export const initialFoods = [
     name: "Kulfi", 
     price: 60, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Kulfi.jpg", 
+    img: "/images/kulfi.jpg", 
     category: "Ice Cream",
     description: "Traditional Indian ice cream"
   },
@@ -403,7 +396,7 @@ export const initialFoods = [
     name: "Rasgulla", 
     price: 90, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Rasgulla.jpg", 
+    img: "/images/rasgulla.jpg", 
     category: "Desserts",
     description: "Bengali sponge in light sugar syrup"
   },
@@ -412,7 +405,7 @@ export const initialFoods = [
     name: "Kheer", 
     price: 90, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Kheer.jpg", 
+    img: "/images/kheer.jpg", 
     category: "Desserts",
     description: "Creamy rice pudding with cardamom"
   },
@@ -423,7 +416,7 @@ export const initialFoods = [
     name: "Masala Chai", 
     price: 20, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Masala-Chai.jpg", 
+    img: "/images/masala-chai.jpg", 
     category: "Beverages",
     description: "Spiced Indian tea with ginger and cardamom"
   },
@@ -432,7 +425,7 @@ export const initialFoods = [
     name: "Mango Lassi", 
     price: 70, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Mango-Lassi.jpg", 
+    img: "/images/mango-lassi.jpg", 
     category: "Beverages",
     description: "Sweet mango yogurt smoothie"
   },
@@ -441,7 +434,7 @@ export const initialFoods = [
     name: "Filter Coffee", 
     price: 25, 
     rating: "⭐⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Filter-Coffee.jpg", 
+    img: "/images/filter-coffee.jpg", 
     category: "Beverages",
     description: "South Indian style strong coffee"
   },
@@ -450,7 +443,7 @@ export const initialFoods = [
     name: "Buttermilk", 
     price: 30, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Buttermilk.jpg", 
+    img: "/images/buttermilk.jpg", 
     category: "Beverages",
     description: "Spiced yogurt drink (Chaas)"
   },
@@ -459,7 +452,7 @@ export const initialFoods = [
     name: "Badam Milk", 
     price: 60, 
     rating: "⭐⭐⭐⭐", 
-    img: "https://www.chefspencil.com/wp-content/uploads/Badam-Milk.jpg", 
+    img: "/images/badam-milk.jpg", 
     category: "Beverages",
     description: "Rich almond milk flavored with saffron"
   }
